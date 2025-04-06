@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import os
 
-PORT = os.environ.get("PORT", 10000)  # Default Render Port
+
 # ✅ StackOverflow API Details
 STACKOVERFLOW_API_URL = "https://api.stackexchange.com/2.3/search/advanced"
 SITE = "stackoverflow"
